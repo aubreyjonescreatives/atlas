@@ -6,7 +6,7 @@ const Schema = mongoose.Schema
 
 
 
-const gamesAPISchema = newSchema({
+const gamesAPISchema = new Schema({
     name: {
         type: String, 
         required: true
