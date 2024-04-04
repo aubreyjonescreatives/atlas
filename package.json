@@ -1,0 +1,22 @@
+{
+  "name": "atlas",
+  "version": "1.0.0",
+  "description": "adventure. strategy. fun.",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "online",
+    "games",
+    "for",
+    "everyone"
+  ],
+  "author": "Aubrey Jones",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "gitignore": "^0.7.0",
+    "node.js": "^0.0.1-security"
+  }
+}
