@@ -5,7 +5,9 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "npm install && node server.js && cd client && npm install && npm run start",
+    "postinstall": "cd client && npm install",
+    "seed": "node seed/loadAPI.js",
+    "start-dev": "concurrently --kill-others \"npm install && nodemon server.js\" \"cd client && npm install && npm run start\"",
     "test": "jest",
     "dev": "nodemon server.js && cd client && npm run start"
   },

@@ -42,7 +42,7 @@ const addGame = async (oneGame) => {
 }
 
 const addGames = async (gameList) => {
-    for (let game of GameList) {
+    for (let game of gameList) {
         console.log(game)
         await addGame(game)
     }

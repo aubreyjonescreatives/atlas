@@ -57,6 +57,7 @@ app.use((req, res, next) => {
 
 const PORT = process.env.PORT || 8080
 
+// mongoDB and mongoose
 
 mongoose.set('strictQuery', false)
 
