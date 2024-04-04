@@ -15,6 +15,7 @@
   "author": "Aubrey Jones",
   "license": "MIT",
   "dependencies": {
+    "axios": "^1.6.8",
     "express": "^4.19.2",
     "gitignore": "^0.7.0",
     "node.js": "^0.0.1-security"
