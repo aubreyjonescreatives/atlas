@@ -7,6 +7,23 @@ const Schema = mongoose.Schema
 
 
 const gamesAPISchema = new Schema({
+    // suit: {
+    //     type: String,
+    //     required: true
+    // },
+    // value: {
+    //     type: String,
+    //     required: true
+    // },
+    // image: {
+    //     type: String,
+    //     required: true
+    // },
+    // code: {
+    //     type: String,
+    //     required: true
+    // }
+       
     name: {
         type: String, 
         required: true
@@ -19,11 +36,11 @@ const gamesAPISchema = new Schema({
         type: String, 
         required: false
     }, 
-    price: {
+    id: {
         type: String, 
         required: true
-    }, 
-    id: {
+    },
+    button: {
         type: String, 
         required: true
     }

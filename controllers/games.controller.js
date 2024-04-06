@@ -8,7 +8,7 @@ export const postGame = ((req, res) => {
         name: req.body.data.name,
         image_url: req.body.data.image_url,
         description: req.body.data.description,
-        price: req.body.data.price
+        button: req.body.data.button
     })
     console.log(game)
     game.save() // save by Mongoose

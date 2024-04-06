@@ -1,0 +1,24 @@
+{
+    "chess": {
+        "name": "Chess",
+        "image_url": "../client/public/images/chess.jpg",
+        "description": "Play a strategic classic game",
+        "button": "Play",
+        "id": 1
+    },
+    "checkers": {
+        "name": "checkers",
+        "image_url": "../client/public/images/checkers.jpg",
+        "description": "A classic powerful game",
+        "button": "Play",
+        "id": 2
+    },
+    "matching": {
+        "name": "Matching Card Game",
+        "image_url": "../client/public/images/matching.png",
+        "description": "Will you Match Them All?",
+        "button": "Play",
+        "id": 3
+    }
+    
+}
